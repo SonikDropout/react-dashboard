@@ -1,3 +1,8 @@
+html,
+body {
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +11,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./img/background.jpg');
+  background-size: cover;
+  background-position: right bottom;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+form {
+  padding: 20px;
+  margin-top: 60px;
+}
+
+form h5 {
+  margin: 20px 0;
+}
+
+form button {
+  margin-top: 20px;
 }
