@@ -10,7 +10,6 @@ const createNotification = (notification) => {
   return admin.firestore()
     .collection('notifications')
     .add(notification)
-    .then(doc => console.log(doc));
 }
 
 exports.projectCreated = functions.firestore

@@ -40,3 +40,8 @@ nav button {
   color: inherit;
   cursor: pointer;
 }
+
+nav .brand-logo {
+  position: static;
+  transform: none !important;
+}
